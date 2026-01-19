@@ -1,24 +1,25 @@
 [tool.poetry]
-name = "config"
+name = "configureable-llm-chatbot"
 version = "0.1.0"
-description = "Configurable llm chatbot based on documents"
-authors = ["Guduly <133545858+Guduly@users.noreply.github.com>"]
-license = "MIT"
+description = "Configurable LLM Chatbot with RAG"
+authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
-python = ">=3.10, <3.12"
-langchain = "^0.1.0"
-langchain-community = "^0.0.20"
-chromadb = "^0.4.22"
-sentence-transformers = "^2.3.1"
-pypdf = "^4.0.0"
-unstructured = "^0.12.0"
-python-docx = "^1.1.0"
-
-[tool.poetry.group.dev.dependencies]
+python = ">=3.10,<3.13"
+langchain = "^0.3.0"
+langchain-core = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-text-splitters = "^0.3.0"
+langchain-ollama = "^0.2.0"
+langchain-chroma = "^0.1.0"
+langchain-huggingface = "^0.1.0"
+chromadb = "^0.5.0"
+sentence-transformers = "^3.0.0"
+pypdf = "^5.0.0"
+pandas = "^2.0.0"
+notebook = "^7.0.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
