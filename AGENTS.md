@@ -28,7 +28,7 @@ pip install -r requirements.txt  # (if available)
 python rag_chat.py
 
 # Run with specific model
-python rag_chat.py --model cus-qwen
+python rag_chat.py --model chatter
 ```
 
 ### Testing
@@ -183,7 +183,7 @@ configureable-llm-chatbot/
 ## Configuration
 
 ### Model Configuration
-- Default model: `cus-qwen` (custom fine-tuned model)
+- Default model: `chatter` (custom fine-tuned model)
 - Can be changed via constructor parameter
 - Models are served via Ollama
 

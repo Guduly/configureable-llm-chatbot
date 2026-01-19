@@ -225,7 +225,7 @@ Fine-tuned models typically show:
 Track fine-tuned models with clear naming:
 ```
 models/
-├── base_cus-qwen/
+├── base_chatter/
 ├── medical_finetuned_v1/
 ├── legal_finetuned_v2/
 └── tech_finetuned_v1/
